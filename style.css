@@ -1,5 +1,6 @@
 body{
     font-family:'Courier New', Courier, monospace;
+    font-size: clamp(0.9375rem, calc(0.875rem + 0.35vw), 1.125rem);
     text-align: center;
     background-color: #000000;
     min-height: 100vh;
@@ -66,7 +67,7 @@ main{
 
 main p{
     margin: 0;
-    font-size: 35px;
+    font-size: clamp(1.125rem, calc(1rem + 1.1vw), 2.1875rem);
 }
 
 header{
@@ -154,7 +155,7 @@ img{
 
 nav{
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: clamp(0.875rem, calc(0.75rem + 0.65vw), 1.25rem);
     width: min(calc(100% - 32px), 1400px);
     max-width: 1400px;
     height: 52px;
@@ -261,7 +262,7 @@ main > p + p{
 .works-page .section-title{
     margin: 0;
     color: hsl(264, 100%, 98%);
-    font-size: 23px;
+    font-size: clamp(1.125rem, calc(1rem + 0.65vw), 1.4375rem);
     font-style: normal;
 }
 
@@ -276,23 +277,19 @@ main > p + p{
 
 
 .small-font {
-    font-size: 18px;
+    font-size: clamp(1rem, calc(0.875rem + 0.5vw), 1.125rem);
 }
 
 .medium-font{
-    font-size: 23px;
+    font-size: clamp(1.125rem, calc(1rem + 0.8vw), 1.4375rem);
 }
 
 .big-font {
-    font-size: 55px;
+    font-size: clamp(2rem, calc(1.5rem + 2vw), 3.4375rem);
 }
 
 
 @media (max-width: 600px){
-    nav{
-        font-size: 14px;
-    }
-
     nav ul a{
         padding: 10px 4px;
     }
