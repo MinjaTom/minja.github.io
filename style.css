@@ -6,7 +6,7 @@
     --inactive-tab-background-color: #181D40; /* Boja neaktivne kartice */
     --dancing-text-color: #2123A2; /* Boja teksta koji treperi */
     --stroke-image-color: #BEDF00; /* Boja obruba kartice */
-    --inactive-additional-text-color: #2A2751;
+    --inactive-additional-text-color: #a9a5dc;
     --card-glow: 0 0 15px #BEDF00; /* Sjaj oko aktivne kartice */
     --font-family: 'Inter', sans-serif;
     --media-radius: 10px;
@@ -693,7 +693,7 @@ main > p + p{
             circle 360px at var(--pointer-x) var(--pointer-y),
             var(--stroke-image-color) 0%,
             rgba(190, 223, 0, 0.8) 22%,
-            rgba(33, 35, 162, 0.45) 58%,
+            rgb(234, 234, 250) 58%,
             transparent 100%
         ),
         linear-gradient(var(--inactive-additional-text-color), var(--inactive-additional-text-color));
