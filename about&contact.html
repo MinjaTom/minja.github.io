@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio ~ About & Contact</title>
+    <title>Portfolio ~ About &amp; Contact</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="Tangerine_icon.png">
 </head>
 
-<body>
-    
-    <header>
-        <h1>About & Contact</h1>
+<body class="about-page" id="top">
+    <header class="site-header">
+        <h1 class="visually-hidden">About &amp; Contact</h1>
+        <nav class="site-nav" aria-label="Main navigation">
+            <ul>
+                <li><span class="tab-note">[very important]</span><a href="index.html">Personal Work</a></li>
+                <li><span class="tab-note">[super-super important]</span><a href="works.html">Game Works</a></li>
+                <li><span class="tab-note">[would be cool]</span><a class="active" href="about&amp;contact.html" aria-current="page">About &amp; Contact</a></li>
+            </ul>
+        </nav>
     </header>
-        
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="works.html">Works</a></li>
-            <li><a href="about&contact.html">About & Contact</a></li>
-        </ul>
-    </nav>
-    
-    <main>
-        <p>About me & contact page!</p>
+
+    <main class="simple-page-content">
+        <h2>About &amp; Contact</h2>
+        <p>About me &amp; contact page!</p>
         <p>There's nothing here yet..</p>
         <p>Though I learned what are break tags!</p>
     </main>
-    
-    
+
+    <footer class="home-footer">
+        <div class="home-footer-rule"></div>
+        <p>© Minja's Portfolio</p>
+    </footer>
+
+    <a class="back-to-top" href="#top" aria-label="Back to top">
+        <img src="assets/circle_up.svg" alt="">
+        <img class="back-to-top-hover" src="assets/circle_up_hoverstate.svg" alt="">
+    </a>
 </body>
 </html>
