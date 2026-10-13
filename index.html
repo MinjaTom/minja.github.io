@@ -11,13 +11,16 @@
 <body class="home-page" id="top">
     <header class="site-header">
         <h1 class="visually-hidden">Minja's portfolio</h1>
-        <nav class="site-nav" aria-label="Main navigation">
-            <ul>
-                <li><span class="tab-note">[very important]</span><a class="active" href="index.html" aria-current="page">Personal Work</a></li>
-                <li><span class="tab-note">[super-super important]</span><a href="works.html">Game Works</a></li>
-                <li><span class="tab-note">[would be cool]</span><a href="about&amp;contact.html">About &amp; Contact</a></li>
-            </ul>
-        </nav>
+        <div class="header-inner">
+            <nav class="site-nav" aria-label="Main navigation">
+                <ul>
+                    <li><span class="tab-note">[very important]</span><a class="active" href="index.html" aria-current="page">Personal Work</a></li>
+                    <li><span class="tab-note">[super-super important]</span><a href="works.html">Game Works</a></li>
+                    <li><span class="tab-note">[would be cool]</span><a href="about&amp;contact.html">About &amp; Contact</a></li>
+                </ul>
+            </nav>
+            <span class="site-name">MINJA TOMAŠEVIĆ</span>
+        </div>
     </header>
 
     <main class="home-content">
@@ -42,19 +45,28 @@
             </div>
         </section>
 
-        <p class="gallery-instruction">[click anywhere]</p>
+        <p class="gallery-instruction">[clicking illustrations will open them in a larger view]</p>
         <section class="home-gallery" aria-label="Selected illustrations">
+            <button class="gallery-arrow gallery-arrow-left" type="button" aria-label="Scroll illustrations left">
+                <img class="arrow-default" src="assets/figma/left_arrow.svg" alt="">
+                <img class="arrow-hover" src="assets/figma/Hovered_arrow.svg" alt="">
+            </button>
             <div class="home-media-container" role="region" tabindex="0" aria-label="Portfolio illustrations">
-                <a class="home-card" href="#armor-study-2"><img src="assets/images/Armor_study2__sub450kb.jpg" data-full="assets/images/Armor_study2.png" data-caption="Armor study 2 — digital painting study by me" alt="A digitally painted study of an armored knight."></a>
-                <a class="home-card" href="#armor-study-1"><img src="assets/images/Armor_study_1_sub450kb.jpg" data-full="assets/images/Armor_study_1.png" data-caption="Armor study 1 — digital painting study by me" alt="A digitally painted study of an armored knight."></a>
-                <a class="home-card" href="#blueberry-study"><img src="assets/images/Blueberry_study_sub450kb.jpg" data-full="assets/images/Blueberry_study.png" data-caption="Blueberry study — digital painting study by me" alt="A digitally painted study of blueberries."></a>
-                <a class="home-card" href="#watermelon-study"><img src="assets/images/Watermelon_sub450kb.jpg" data-full="assets/images/Watermelon.jpg" data-caption="Watermelon study — digital painting study by me" alt="A digitally painted study of a watermelon."></a>
-                <a class="home-card" href="#tangerine-study"><img src="assets/images/Mandarina study_sub250kb.jpg" data-full="assets/images/Mandarina study.jpg" data-caption="Tangerine study — digital painting study by me" alt="A digitally painted study of a tangerine."></a>
-                <a class="home-card" href="#grape-study"><img src="assets/images/grape study_sub250kb.jpg" data-full="assets/images/grape study.jpg" data-caption="Grape study — digital painting study by me" alt="A digitally painted study of grapes."></a>
-                <a class="home-card" href="#lemon-study"><img src="assets/images/lemon study_sub250kb.jpg" data-full="assets/images/lemon study.jpg" data-caption="Lemon study — digital painting study by me" alt="A digitally painted study of lemons."></a>
-                <a class="home-card" href="#tomato-study"><img src="assets/images/Paradajz_study_sub250kb.jpg" data-full="assets/images/paradajz study.jpg" data-caption="Tomato study — digital painting study by me" alt="A study of a tomato."></a>
-                <a class="home-card" href="#strawberry-study"><img src="assets/images/Jagoda PNG_sub450kb.jpg" data-full="assets/images/Jagoda PNG.png" data-caption="Strawberry digital painting study by me" alt="A study of a strawberry."></a>
+                <a class="home-card" href="#armor-study-2"><img src="assets/images/Armor_study2_W.webp" data-full="assets/images/Armor_study2_W.webp" data-caption="Armor study 2 — digital painting study by me" alt="A digitally painted study of an armored knight."></a>
+                <a class="home-card" href="#armor-study-1"><img src="assets/images/Armor_study_1_W.webp" data-full="assets/images/Armor_study_1_W.webp" data-caption="Armor study 1 — digital painting study by me" alt="A digitally painted study of an armored knight."></a>
+                <a class="home-card" href="#blueberry-study"><img src="assets/images/Blueberry_study_W.webp" data-full="assets/images/Blueberry_study_W.webp" data-caption="Blueberry study — digital painting study by me" alt="A digitally painted study of blueberries."></a>
+                <a class="home-card" href="#watermelon-study"><img src="assets/images/Watermelon_W.webp" data-full="assets/images/Watermelon_W.webp" data-caption="Watermelon study — digital painting study by me" alt="A digitally painted study of a watermelon."></a>
+                <a class="home-card" href="#tangerine-study"><img src="assets/images/Mandarina study_W.webp" data-full="assets/images/Mandarina study_W.webp" data-caption="Tangerine study — digital painting study by me" alt="A digitally painted study of a tangerine."></a>
+                <a class="home-card" href="#grape-study"><img src="assets/images/grape study_W.webp" data-full="assets/images/grape study_W.webp" data-caption="Grape study — digital painting study by me" alt="A digitally painted study of grapes."></a>
+                <a class="home-card" href="#lemon-study"><img src="assets/images/lemon study_W.webp" data-full="assets/images/lemon study_W.webp" data-caption="Lemon study — digital painting study by me" alt="A digitally painted study of lemons."></a>
+                <a class="home-card" href="#tomato-study"><img src="assets/images/paradajz study_W.webp" data-full="assets/images/paradajz study_W.webp" data-caption="Tomato study — digital painting study by me" alt="A study of a tomato."></a>
+                <a class="home-card" href="#strawberry-study"><img src="assets/images/Jagoda PNG_W.webp" data-full="assets/images/Jagoda PNG_W.webp" data-caption="Strawberry digital painting study by me" alt="A study of a strawberry."></a>
             </div>
+            <input class="gallery-scrollbar" type="range" min="0" max="0" value="0" aria-label="Scroll illustration gallery">
+            <button class="gallery-arrow gallery-arrow-right" type="button" aria-label="Scroll illustrations right">
+                <img class="arrow-default" src="assets/figma/left_arrow.svg" alt="">
+                <img class="arrow-hover" src="assets/figma/Hovered_arrow.svg" alt="">
+            </button>
         </section>
 
         <p class="home-scroll-hint">Select an illustration to view the full study.</p>
@@ -64,86 +76,79 @@
             <h2 class="section-title" id="personal-studies-title">PERSONAL STUDIES</h2>
             <p class="work-description gradient-description">Illustrated in Clip Studio Paint EX, on a 19-inch XP PEN pro tablet.</p>
 
-            <div class="media-container" id="armor-study-2">
-                <img src="assets/images/Armor_study2__sub450kb.jpg" data-full="assets/images/Armor_study2.png" data-caption="Armor study 2 — digital painting study by me" alt="A digitally painted study of an armored knight.">
-                <video loop autoplay muted playsinline>
-                    <source src="assets/videos/Armor_study2v.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <p class="work-description">Two of my digital painting studies focusing on metal surfaces and how reflection acts in extreme contrast moments.</p>
-
-            <div class="media-container" id="armor-study-1">
-                <img src="assets/images/Armor_study_1_sub450kb.jpg" data-full="assets/images/Armor_study_1.png" data-caption="Armor study 1 — digital painting study by me" alt="A digitally painted study of an armored knight.">
-                <video loop autoplay muted playsinline>
-                    <source src="assets/videos/Armor_study_1v.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+            <div class="study-group armor-group">
+                <div class="study-grid armor-grid">
+                    <div class="media-container" id="armor-study-2">
+                        <video loop autoplay muted playsinline aria-label="Armor study 2 timelapse">
+                            <source src="assets/videos/Armor_study2v.webm" type="video/webm">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="media-container" id="armor-study-1">
+                        <video loop autoplay muted playsinline aria-label="Armor study 1 timelapse">
+                            <source src="assets/videos/Armor_study_1v.webm" type="video/webm">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <p class="work-description">Two digital painting studies exploring metal surfaces and reflections in extreme contrast.</p>
+                <hr class="section-divider">
             </div>
 
             <section class="fruit-studies" aria-labelledby="fruit-studies-title">
-                <hr class="section-divider">
                 <h3 class="section-title" id="fruit-studies-title">FRUITS'N'VEGGIES STUDIES</h3>
-
-                <div class="media-container" id="blueberry-study">
-                    <img src="assets/images/Blueberry_study_sub450kb.jpg" data-full="assets/images/Blueberry_study.png" data-caption="Blueberry study — digital painting study by me" alt="A digitally painted study of blueberries.">
-                    <video loop autoplay muted playsinline>
-                        <source src="assets/videos/Blueberry timelapse.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                <div class="study-group">
+                    <div class="study-grid">
+                        <div class="media-container" id="blueberry-study">
+                            <video loop autoplay muted playsinline aria-label="Blueberry study timelapse">
+                                <source src="assets/videos/Blueberry timelapse.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="media-container" id="watermelon-study">
+                            <video loop autoplay muted playsinline aria-label="Watermelon study timelapse">
+                                <source src="assets/videos/OG/Watermelon timelapse.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="media-container" id="tangerine-study">
+                            <video loop autoplay muted playsinline aria-label="Tangerine study timelapse">
+                                <source src="assets/videos/OG/Mandarina study timelapse.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <p class="work-description">The depth of field achieved in blueberries was very challenging yet satisfying.</p>
                 </div>
-                <p class="work-description">Two of my proudest from this series. The depth of field achieved in blueberries was very challenging yet satisfying.<br>Watermelons were commissioned. Very hard texture to work with, got to play with shadows' values.</p>
-
-                <div class="media-container" id="watermelon-study">
-                    <img src="assets/images/Watermelon_sub450kb.jpg" data-full="assets/images/Watermelon.jpg" data-caption="Watermelon study — digital painting study by me" alt="A digitally painted study of a watermelon.">
-                    <video loop autoplay muted playsinline>
-                        <source src="assets/videos/Watermelon timelapse.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                <div class="study-group">
+                    <div class="study-grid four-study-grid">
+                        <div class="media-container" id="grape-study">
+                            <video loop autoplay muted playsinline aria-label="Grape study timelapse">
+                                <source src="assets/videos/Grozdje studija.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="media-container" id="lemon-study">
+                            <video loop autoplay muted playsinline aria-label="Lemon study timelapse">
+                                <source src="assets/videos/lemon study.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="media-container" id="tomato-study">
+                            <video loop autoplay muted playsinline aria-label="Tomato study timelapse">
+                                <source src="assets/videos/OG/paradajz study timelapse.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="media-container" id="strawberry-study">
+                            <video loop autoplay muted playsinline aria-label="Strawberry study timelapse">
+                                <source src="assets/videos/jagoda study timelapse .webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <p class="work-description">Grapes opened the series, while lemons, tomatoes and strawberries challenged me to work with color, texture and detail.</p>
                 </div>
-
-                <div class="media-container" id="tangerine-study">
-                    <img src="assets/images/Mandarina study_sub250kb.jpg" data-full="assets/images/Mandarina study.jpg" data-caption="Tangerine study — digital painting study by me" alt="A digitally painted study of a tangerine.">
-                    <video loop autoplay muted playsinline>
-                        <source src="assets/videos/Mandarina study timelapse.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-                <p class="work-description">Tangerine and grapes studies. Grapes were the series opening piece.<br>That was the hardest piece that I ever worked on, which is why I started this series.<br>[pushing boundaries pays off]</p>
-
-                <div class="media-container" id="grape-study">
-                    <img src="assets/images/grape study_sub250kb.jpg" data-full="assets/images/grape study.jpg" data-caption="Grape study — digital painting study by me" alt="A digitally painted study of grapes.">
-                    <video loop autoplay muted playsinline>
-                        <source src="assets/videos/Grozdje studija.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-
-                <div class="media-container" id="lemon-study">
-                    <img src="assets/images/lemon study_sub250kb.jpg" data-full="assets/images/lemon study.jpg" data-caption="Lemon study — digital painting study by me" alt="A digitally painted study of lemons.">
-                    <video loop autoplay muted playsinline>
-                        <source src="assets/videos/lemon study.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-                <p class="work-description">Lemons and Tomatoes studies.<br>[both very difficult, nuances in color and texture, drapery behind lemons, etc.]</p>
-
-                <div class="media-container" id="tomato-study">
-                    <img src="assets/images/Paradajz_study_sub250kb.jpg" data-full="assets/images/paradajz study.jpg" data-caption="Tomato study — digital painting study by me" alt="Tomato">
-                    <video loop autoplay muted playsinline>
-                        <source src="assets/videos/paradajz study timelapse.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-
-                <div class="media-container" id="strawberry-study">
-                    <img src="assets/images/Jagoda PNG_sub450kb.jpg" data-full="assets/images/Jagoda PNG.png" data-caption="Strawberry digital painting study by me" alt="Strawberry">
-                    <video loop autoplay muted playsinline>
-                        <source src="assets/videos/jagoda study timelapse .mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-                <p class="work-description">The only study that made me want to quit it multiple times. Seed texture was so hard to capture while respecting the range of reds... never again!</p>
             </section>
             <hr class="section-divider">
         </section>
@@ -160,13 +165,19 @@
     </a>
 
     <dialog class="image-lightbox" aria-label="Full-size artwork">
-        <button class="lightbox-close" type="button" aria-label="Close image">×</button>
         <figure>
             <img class="lightbox-image" alt="">
-            <video class="lightbox-video" loop autoplay muted playsinline hidden></video>
+            <video class="lightbox-video" controls autoplay muted playsinline loop hidden></video>
             <figcaption class="lightbox-caption"></figcaption>
         </figure>
-        <button class="lightbox-jump" type="button" hidden>Find this study below ↓</button>
+        <div class="lightbox-actions">
+            <button class="lightbox-close" type="button" aria-label="Close image">×</button>
+            <button class="lightbox-timelapse" type="button" hidden aria-label="Go to study timelapse">
+                <img class="timelapse-default" src="assets/figma/timelapse_default.svg" alt="">
+                <img class="timelapse-hover" src="assets/figma/timelapse_hover.png" alt="">
+                <span>TIMELAPSE</span>
+            </button>
+        </div>
     </dialog>
 
     <script>
@@ -190,12 +201,69 @@
         });
 
         const lightbox = document.querySelector(".image-lightbox");
+        const gallery = document.querySelector(".home-media-container");
+        const galleryScrollbar = document.querySelector(".gallery-scrollbar");
+        let galleryScrollbarActive = false;
+        let pendingGalleryScroll = 0;
+        let galleryScrollFrame = 0;
+        const syncGalleryScrollbar = () => {
+            galleryScrollbar.max = Math.max(0, gallery.scrollWidth - gallery.clientWidth);
+            galleryScrollbar.value = gallery.scrollLeft;
+            galleryScrollbar.disabled = galleryScrollbar.max === "0";
+            galleryScrollbar.style.setProperty("--thumb-size", `${Math.max(12, gallery.clientWidth / gallery.scrollWidth * 100)}%`);
+        };
+        const startGalleryScrollbarInteraction = () => {
+            galleryScrollbarActive = true;
+            gallery.classList.add("is-scrubbing");
+        };
+        const endGalleryScrollbarInteraction = () => {
+            if (!galleryScrollbarActive) return;
+            galleryScrollbarActive = false;
+            gallery.classList.remove("is-scrubbing");
+            galleryScrollbar.value = gallery.scrollLeft;
+        };
+        gallery.addEventListener("scroll", () => {
+            if (!galleryScrollbarActive) galleryScrollbar.value = gallery.scrollLeft;
+        }, { passive: true });
+        galleryScrollbar.addEventListener("pointerdown", startGalleryScrollbarInteraction);
+        window.addEventListener("pointerup", endGalleryScrollbarInteraction);
+        window.addEventListener("pointercancel", endGalleryScrollbarInteraction);
+        galleryScrollbar.addEventListener("keydown", startGalleryScrollbarInteraction);
+        galleryScrollbar.addEventListener("keyup", endGalleryScrollbarInteraction);
+        galleryScrollbar.addEventListener("blur", endGalleryScrollbarInteraction);
+        galleryScrollbar.addEventListener("input", () => {
+            pendingGalleryScroll = Number(galleryScrollbar.value);
+            if (!galleryScrollFrame) {
+                galleryScrollFrame = requestAnimationFrame(() => {
+                    gallery.scrollLeft = pendingGalleryScroll;
+                    galleryScrollFrame = 0;
+                });
+            }
+        });
+        window.addEventListener("resize", syncGalleryScrollbar);
+        syncGalleryScrollbar();
+        document.querySelector(".gallery-arrow-left").addEventListener("click", () => gallery.scrollBy({ left: -gallery.clientWidth * 0.8, behavior: "smooth" }));
+        document.querySelector(".gallery-arrow-right").addEventListener("click", () => gallery.scrollBy({ left: gallery.clientWidth * 0.8, behavior: "smooth" }));
         const lightboxImage = lightbox.querySelector(".lightbox-image");
         const lightboxVideo = lightbox.querySelector(".lightbox-video");
         const lightboxCaption = lightbox.querySelector(".lightbox-caption");
-        const lightboxJump = lightbox.querySelector(".lightbox-jump");
-        let activeInlineVideo = null;
+        const lightboxTimelapse = lightbox.querySelector(".lightbox-timelapse");
+        const lightboxActions = lightbox.querySelector(".lightbox-actions");
         let activeStudyTarget = null;
+
+        const positionLightboxActions = () => {
+            if (!lightbox.open) return;
+            const artwork = lightboxImage.hidden ? lightboxVideo : lightboxImage;
+            const artworkBounds = artwork.getBoundingClientRect();
+            const actionWidth = lightboxActions.getBoundingClientRect().width;
+            let left = artworkBounds.right + 24;
+            if (left + actionWidth > window.innerWidth - 16) {
+                left = Math.max(16, artworkBounds.left - actionWidth - 24);
+            }
+            lightbox.style.setProperty("--lightbox-actions-left", `${left}px`);
+            lightbox.style.setProperty("--lightbox-actions-top", `${artworkBounds.top + artworkBounds.height / 2}px`);
+        };
+        lightboxImage.addEventListener("load", positionLightboxActions);
 
         document.querySelectorAll(".home-card img, .personal-studies .media-container img").forEach(image => {
             image.tabIndex = 0;
@@ -204,16 +272,18 @@
 
             const openLightbox = () => {
                 lightboxVideo.pause();
+                lightboxVideo.removeAttribute("src");
+                lightboxVideo.load();
                 lightboxVideo.hidden = true;
                 lightboxImage.hidden = false;
-                activeInlineVideo = null;
                 lightboxImage.src = image.dataset.full;
                 lightboxImage.alt = image.alt;
                 lightboxCaption.textContent = image.dataset.caption;
                 const galleryLink = image.closest(".home-card");
                 activeStudyTarget = galleryLink?.getAttribute("href")?.slice(1) || image.closest(".media-container")?.id;
-                lightboxJump.hidden = !activeStudyTarget;
+                lightboxTimelapse.hidden = !document.getElementById(activeStudyTarget)?.querySelector("video");
                 lightbox.showModal();
+                requestAnimationFrame(positionLightboxActions);
             };
 
             image.addEventListener("click", event => {
@@ -228,29 +298,60 @@
             });
         });
 
-        document.querySelectorAll(".personal-studies .media-container video").forEach(video => {
-            video.addEventListener("click", event => {
-                event.preventDefault();
-                const artwork = video.closest(".media-container").querySelector("img");
-                activeInlineVideo = video;
-                video.pause();
+        document.querySelectorAll(".personal-studies .study-grid .media-container video").forEach(studyVideo => {
+            studyVideo.tabIndex = 0;
+            studyVideo.setAttribute("role", "button");
+            studyVideo.setAttribute("aria-label", `Open full-size video: ${studyVideo.getAttribute("aria-label") || "Study timelapse"}`);
+
+            const openVideoLightbox = () => {
                 lightboxImage.hidden = true;
+                lightboxCaption.textContent = studyVideo.closest(".study-group")?.querySelector(".work-description")?.textContent || "";
+                lightboxTimelapse.hidden = true;
                 lightboxVideo.hidden = false;
-                lightboxVideo.src = video.currentSrc || video.querySelector("source").src;
-                lightboxCaption.textContent = artwork.dataset.caption;
-                activeStudyTarget = video.closest(".media-container").id;
-                lightboxJump.hidden = !activeStudyTarget;
+                lightboxVideo.src = studyVideo.currentSrc || studyVideo.querySelector("source")?.src || "";
                 lightbox.showModal();
+                requestAnimationFrame(positionLightboxActions);
+                const seekLightboxVideo = () => {
+                    try { lightboxVideo.currentTime = studyVideo.currentTime || 0; } catch {}
+                    positionLightboxActions();
+                };
+                if (lightboxVideo.readyState >= 1) seekLightboxVideo();
+                else lightboxVideo.addEventListener("loadedmetadata", seekLightboxVideo, { once: true });
                 lightboxVideo.play().catch(() => {});
+            };
+
+            studyVideo.addEventListener("click", openVideoLightbox);
+            studyVideo.addEventListener("keydown", event => {
+                if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    openVideoLightbox();
+                }
             });
         });
 
-        lightboxJump.addEventListener("click", () => {
-            const study = document.getElementById(activeStudyTarget);
-            if (!study) return;
+        window.addEventListener("resize", positionLightboxActions);
+
+        lightbox.addEventListener("close", () => {
+            lightboxVideo.pause();
+            lightboxVideo.removeAttribute("src");
+            lightboxVideo.load();
+        });
+
+        lightboxTimelapse.addEventListener("click", () => {
+            const studyVideo = document.getElementById(activeStudyTarget)?.querySelector("video");
+            if (!studyVideo) return;
             lightbox.close();
             history.replaceState(null, "", `#${activeStudyTarget}`);
-            requestAnimationFrame(() => study.scrollIntoView({ behavior: "smooth", block: "center" }));
+            requestAnimationFrame(() => {
+                studyVideo.scrollIntoView({ behavior: "smooth", block: "center" });
+                studyVideo.play().catch(() => {});
+                window.setTimeout(() => {
+                    studyVideo.classList.remove("timelapse-highlight");
+                    void studyVideo.offsetWidth;
+                    studyVideo.classList.add("timelapse-highlight");
+                    window.setTimeout(() => studyVideo.classList.remove("timelapse-highlight"), 1500);
+                }, 250);
+            });
         });
 
         document.addEventListener("contextmenu", event => {
@@ -264,14 +365,7 @@
             if (event.target === lightbox) lightbox.close();
         });
         lightbox.addEventListener("close", () => {
-            lightboxVideo.pause();
-            lightboxVideo.removeAttribute("src");
-            lightboxVideo.load();
-            lightboxVideo.hidden = true;
-            lightboxImage.hidden = false;
             lightboxImage.removeAttribute("src");
-            if (activeInlineVideo) activeInlineVideo.play().catch(() => {});
-            activeInlineVideo = null;
         });
     </script>
 </body>
