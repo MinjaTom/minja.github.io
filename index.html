@@ -1,7 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio ~ Home</title>
     <link rel="stylesheet" href="style.css">
@@ -14,14 +17,14 @@
         <div class="header-inner">
             <nav class="site-nav" aria-label="Main navigation">
                 <ul>
-                    <li><span class="tab-note">[very important]</span><a class="active" href="index.html" aria-current="page">Personal Work</a></li>
-                    <li><span class="tab-note">[super-super important]</span><a href="works.html">Game Works</a></li>
-                    <li><span class="tab-note">[would be cool]</span><a href="about&amp;contact.html">About &amp; Contact</a></li>
+                    <li><a class="active" href="index.html" aria-current="page">illustrations</a></li>
+                    <li><a href="works.html">games</a></li>
+                    <li><a href="about&amp;contact.html">about me</a></li>
                 </ul>
             </nav>
-            <span class="site-name">MINJA TOMAŠEVIĆ</span>
         </div>
     </header>
+    <p class="site-name">MINJA TOMAŠEVIĆ'S PORTFOLIO</p>
 
     <main class="home-content">
         <section class="home-marquee" aria-label="About my portfolio">
@@ -163,6 +166,27 @@
         <img src="assets/figma/circle_up.svg" alt="">
         <img class="back-to-top-hover" src="assets/figma/circle_up_hoverstate.svg" alt="">
     </a>
+    <script>
+        const backToTop = document.querySelector(".back-to-top");
+        const updateBackToTop = () => backToTop.classList.toggle("is-visible", window.scrollY > 160);
+        window.addEventListener("scroll", updateBackToTop, { passive: true });
+        updateBackToTop();
+    </script>
+    <script>
+        if (window.matchMedia("(pointer: fine) and (prefers-reduced-motion: no-preference)").matches) {
+            document.addEventListener("pointermove", event => {
+                document.body.style.setProperty("--cursor-x", `${event.clientX}px`);
+                document.body.style.setProperty("--cursor-y", `${event.clientY}px`);
+                document.body.classList.add("cursor-glow-active");
+            }, { passive: true });
+            document.documentElement.addEventListener("pointerleave", () => {
+                document.body.classList.remove("cursor-glow-active");
+            });
+            window.addEventListener("blur", () => {
+                document.body.classList.remove("cursor-glow-active");
+            });
+        }
+    </script>
 
     <dialog class="image-lightbox" aria-label="Full-size artwork">
         <figure>
